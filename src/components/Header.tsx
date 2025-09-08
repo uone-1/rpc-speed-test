@@ -38,7 +38,12 @@ const Header = () => {
             </Flex>
 
             <Space>
-                <HeaderButton icon={<GithubFilled />}>Github</HeaderButton>
+                <HeaderButton
+                    icon={<GithubFilled />}
+                    onClick={() => window.open("https://github.com/uone-1/solana-rpc-speed-test")}
+                >
+                    Github
+                </HeaderButton>
             </Space>
         </Layout.Header>
     )
