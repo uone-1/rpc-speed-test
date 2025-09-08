@@ -1,5 +1,5 @@
 {
-  "name": "rpc-speed-test",
+  "name": "solana-rpc-speed-test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
