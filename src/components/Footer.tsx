@@ -18,7 +18,7 @@ const Footer = () => {
             }}
         >
             <Space>
-                <Text>☕ Donations:</Text>
+                <Text>☕ Buy me a coffee:</Text>
                 <Link ellipsis copyable>G1AQFr3f1ExDjEEC8Y1W4QmSQ5svn81pkdzE1SV7T3Tt</Link>
             </Space>
         </Layout.Footer>
