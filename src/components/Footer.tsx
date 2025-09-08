@@ -17,10 +17,10 @@ const Footer = () => {
                 alignItems: "center"
             }}
         >
-            <Space>
-                <Text>☕ Buy me a coffee:</Text>
+            <div>
+                <Text style={{ marginRight: 10 }}>☕ Buy me a coffee:</Text>
                 <Link ellipsis copyable>G1AQFr3f1ExDjEEC8Y1W4QmSQ5svn81pkdzE1SV7T3Tt</Link>
-            </Space>
+            </div>
         </Layout.Footer>
     )
 }
