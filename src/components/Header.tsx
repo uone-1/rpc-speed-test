@@ -1,6 +1,6 @@
-import { Avatar, Button, Layout, Space, theme, Typography, type ButtonProps } from "antd"
+import { Avatar, Button, Col, Flex, Layout, Space, theme, Typography, type ButtonProps } from "antd"
 import React from 'react'
-import { CloudOutlined, GithubFilled } from "@ant-design/icons";
+import { GithubFilled } from "@ant-design/icons";
 
 const Header = () => {
     const { Title, Text } = Typography;
@@ -25,17 +25,17 @@ const Header = () => {
                 alignItems: "center"
             }}
         >
-            <Space>
+            <Flex gap={10} justify="center" align="center">
                 <Avatar
                     size="large"
                     shape="square"
-                    icon={<CloudOutlined />}
-                    style={{
-                        backgroundColor: token.colorPrimary
-                    }}
+                    src={"/solana.png"}
                 />
-                <Text strong style={{ fontSize: 22 }}>Solana RPC Speed Test</Text>
-            </Space>
+
+                <Col xs={0} lg={20}>
+                    <Text strong style={{ fontSize: 22 }} >Solana RPC Speed Test</Text>
+                </Col>
+            </Flex>
 
             <Space>
                 <HeaderButton icon={<GithubFilled />}>Github</HeaderButton>
